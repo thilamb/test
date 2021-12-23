@@ -20,7 +20,6 @@ jobs:
         with:
           path-to-signatures: 'cla.json'
           path-to-document: 'https://github.com/thilamb/test/blob/main/CLA.md' # e.g. a CLA or a DCO document
-          remote-repository-name: 'thilamb/signatures'
           # branch should not be protected
           branch: 'main'
           allowlist: user1,bot*
